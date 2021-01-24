@@ -91,3 +91,60 @@ h1 {
   font-size: 70px;
   font-weight: 900;
 }
+
+
+#skills {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.skillsinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
+
+.skillsitem {
+  width: 260px;
+  height: 228px;
+  background-color: rgb(194, 206, 206);
+  color: black;
+  border: 1px solid black;
+  padding: 40px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.skillstitle {
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 0.35em;
+}
+.skillsdescription {
+  max-width: 400px;
+}
+
+.skillsflex {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+.skill-icon {
+  font-size: 4.71em;
+}
+
+.skilltitle {
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.skillssection {
+  padding-bottom: 120px;
+}

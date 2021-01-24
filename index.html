@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-     
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
     </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+      preload
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      preload=""
+    />
   </head>
   <body>
     <!--COMIENZO HEADER-->
@@ -38,19 +48,59 @@
 
 <!-- Comienzo seccion sobre mi-->
 <section class="about">
-    <div id="aboutmaincontent" class="dark">
-      <div class="aboutmaininfo">
-        <p class="aboutgreeting">¡Hola! Soy</p>
-        <h1 class="aboutname">Chari Codazzi</h1>
-        <p class="aboutdescription">Desarrolladora, gamer y futbolera</p>
-        <button class="buttonstyle">LO QUE HAGO</button>
+  <div id="aboutmaincontent" class="dark">
+    <div class="aboutmaininfo">
+      <p class="aboutgreeting">¡Hola! Soy</p>
+      <h1 class="aboutname">Chari Codazzi</h1>
+      <p class="aboutdescription">Desarrolladora, gamer y futbolera</p>
+      <button class="buttonstyle">LO QUE HAGO</button>
+    </div>
+    <div class="aboutimage">
+      <img
+        src="https://frontend-proyecto-portfolio.adaitw.org/images/software-engineer.svg"
+        alt="girl typing"
+      />
+    </div>
+  </div>
+</section>
+<!--FIN seccion sobre mi-->
+<section class="skillssection dark">
+  <div id="skills" class="dark">
+    <div class="skillsinfo">
+      <h2 class="skillstitle">Mis Conocimientos</h2>
+      <p class="skillsdescription">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum totam
+        commodi impedit illum ut odit, recusandae aliquid ab deleniti soluta
+        nesciunt cumque maxime officiis numquam tempora laudantium voluptatum?
+        Modi, recusandae?
+      </p>
+    </div>
+    <div class="skillsflex">
+      <div class="skillsitem">
+        <i class="devicon-html5-plain colored skill-icon"></i>
+        <p class="skilltitle">HTML 5</p>
       </div>
-      <div class="aboutimage">
-        <img
-          src="https://frontend-proyecto-portfolio.adaitw.org/images/software-engineer.svg"
-          alt="girl typing"
-        />
+      <div class="skillsitem">
+        <i class="devicon-css3-plain colored skill-icon"></i>
+        <p class="skilltitle">CSS 3</p>
+      </div>
+      <div class="skillsitem">
+        <i class="devicon-sass-plain colored skill-icon"></i>
+        <p class="skilltitle">Sass</p>
+      </div>
+      <div class="skillsitem">
+        <i class="devicon-javascript-plain colored skill-icon"></i>
+        <p class="skilltitle">Javascript</p>
+      </div>
+      <div class="skillsitem">
+        <i class="devicon-react-plain colored skill-icon"></i>
+        <p class="skilltitle">React</p>
+      </div>
+      <div class="skillsitem">
+        <i class="devicon-git-plain colored skill-icon"></i>
+        <p class="skilltitle">GIT</p>
       </div>
     </div>
-  </section>
-  <!--FIN seccion sobre mi-->
+  </div>
+</section>
+<!--Fin seccion conocimientos-->
