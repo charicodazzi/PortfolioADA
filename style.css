@@ -19,6 +19,7 @@ body {
 .menu {
   display: flex;
   justify-content: flex-end;
+  line-height: 2.5;
 }
 
 ul {
