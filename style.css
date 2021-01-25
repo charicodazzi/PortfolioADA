@@ -13,6 +13,9 @@ body {
   color: white;
 }
 
+.aheader:hover {
+  color: #8338ec;
+}
 .menu {
   display: flex;
   justify-content: flex-end;
@@ -47,6 +50,7 @@ header {
   border: none;
   font-size: 1em;
   font-weight: 400;
+  cursor: pointer;
 }
 
 #aboutmaincontent {
@@ -91,7 +95,6 @@ h1 {
   font-size: 70px;
   font-weight: 900;
 }
-
 
 #skills {
   max-width: 1100px;
