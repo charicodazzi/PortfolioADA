@@ -197,7 +197,7 @@ h1 {
 }
 
 .projects {
-  height: 300vh;
+  height: 260vh;
   width: 100%;
 }
 
@@ -229,14 +229,17 @@ h1 {
 .projectbox {
   width: 30%;
   margin: 0.75em;
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(224, 224, 224);
+  border: 1px solid gray;
   border-radius: 8px;
   padding: 20px;
   overflow: hidden;
+  text-decoration: none;
+  color: white;
 }
 
+.projectbox:hover {
+  border: 1px solid lightseagreen;
+}
 .imgproject {
   width: 100%;
 }
