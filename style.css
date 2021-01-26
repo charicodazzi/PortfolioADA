@@ -195,3 +195,48 @@ h1 {
   background-color: lightseagreen;
   color: black;
 }
+
+.projects {
+  height: 300vh;
+  width: 100%;
+}
+
+.projectscontent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 110px;
+}
+
+.projectsdescription {
+  width: 40%;
+  margin-top: 30px;
+}
+
+.projectstitle {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.projectsflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.projectbox {
+  width: 30%;
+  margin: 0.75em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(224, 224, 224);
+  border-radius: 8px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.imgproject {
+  width: 100%;
+}
