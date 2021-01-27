@@ -20,8 +20,9 @@ body {
   color: #8338ec;
   border: 1px solid #8338ec;
   border-radius: 20px;
-  background-color: white;
+  background-color: rgb(29, 51, 77);
   padding: 10px 15px;
+  box-shadow: 0px 0px 10px 0px #8338ec;
 }
 .menu {
   display: flex;
@@ -240,6 +241,174 @@ h1 {
 .projectbox:hover {
   border: 1px solid lightseagreen;
 }
+
+.projectbox:active {
+  box-shadow: 0 0 10px 0 lightseagreen;
+}
 .imgproject {
   width: 100%;
+}
+.contactsection {
+  height: 120vh;
+  margin-top: 0px;
+}
+
+.contact-title {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.columns {
+  display: flex;
+  border: 1px solid #b1aaaa;
+  border-radius: 15px;
+  text-align: left;
+  padding: 80px 60px;
+  background-color: rgb(194, 206, 206);
+  color: black;
+  margin: 80px;
+  margin-top: 0;
+}
+
+.contact-social-link {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: black;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.contact-social-item {
+  display: flex;
+  margin: 5px 0;
+}
+
+.contact-social-icon {
+  margin-right: 10px;
+  background-color: rgb(194, 206, 206);
+  color: #8338ec;
+  font-size: 1.2rem;
+}
+
+.contact-social-link:hover {
+  color: #8338ec;
+}
+
+.contact-social-icon:hover {
+  color: white;
+  background-color: #8338ec;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.contact-description {
+  width: 70%;
+  margin-top: 20px;
+}
+input {
+  outline: none;
+}
+.inputname {
+  display: flex;
+}
+input:hover {
+  box-shadow: 0 0 10px 0 lightseagreen;
+}
+
+textarea:hover {
+  box-shadow: 0 0 10px 0 lightseagreen;
+  outline: none;
+}
+.formgrow {
+  flex-grow: 1;
+  margin-left: 5px;
+}
+
+label {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+input {
+  border-radius: 20px;
+  border: none;
+  width: 100%;
+  padding: 10px 15px;
+}
+
+textarea {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.formbutton {
+  margin-top: 10px;
+}
+
+.formbutton,
+.buttonstyle:hover {
+  opacity: 0.8;
+}
+
+footer {
+  background-color: lightseagreen;
+  height: 60vh;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  color: white;
+}
+.footernavmenu {
+  display: flex;
+  justify-content: center;
+}
+
+.footernavitem {
+  margin: 0 10px;
+}
+.footernavlink {
+  color: black;
+}
+
+.footer-social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.footer-social-link {
+  font-size: 28px;
+  margin: 10px;
+  color: lightseagreen;
+  background-color: rgb(29, 51, 77);
+  border-radius: 50%;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.footer-social-link:hover {
+  background-color: lightseagreen;
+  color: black;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.footerorg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.love {
+  margin-top: 40px;
+  color: black;
 }
