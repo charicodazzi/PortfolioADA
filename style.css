@@ -78,8 +78,8 @@ header {
 }
 
 .aboutimage {
-  width: 500px;
-  height: 400px;
+  width: 45%;
+  height: 50%;
 }
 
 .aboutmaininfo {
@@ -276,6 +276,10 @@ h1 {
   width: 100%;
 }
 
+.imgproject {
+  height: 70%;
+}
+
 /**Fin seccion PROYECTOS**/
 
 /**Comienzo seccion CONTACTO**/
@@ -462,5 +466,56 @@ footer {
   }
   .contactsection {
     height: 300vh;
+  }
+
+  #aboutmaincontent {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 712px) {
+  .projectscontent {
+    align-items: center;
+  }
+
+  .projectsdescription {
+    width: 100%;
+  }
+
+  .projectsflex {
+    justify-content: center;
+  }
+  .columns {
+    flex-direction: column;
+  }
+  .contactsection {
+    height: 220vh;
+  }
+  .inputmessage {
+    width: 60vw;
+  }
+
+  input {
+    width: 100%;
+  }
+  .columns {
+    width: 80vw;
+  }
+  .columnform {
+    margin-top: 20px;
+    width: 80%;
+  }
+  .column-contact {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .contact-description {
+    width: 100%;
+  }
+
+  footer {
+    height: 45vh;
   }
 }
