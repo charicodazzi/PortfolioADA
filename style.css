@@ -46,6 +46,7 @@ header {
   position: fixed;
   top: 0;
   height: 14%;
+  font-size: 1.4rem;
 }
 
 .dark {
@@ -91,7 +92,7 @@ header {
 
 .aboutgreeting {
   font-weight: 800;
-  font-size: 30px;
+  font-size: 2.5rem;
   margin-bottom: 5px;
 }
 
@@ -102,7 +103,7 @@ header {
 
 .aboutdescription {
   margin-bottom: 50px;
-  font-size: 16px;
+  font-size: 1.4rem;
 }
 
 .hrstyle {
@@ -135,6 +136,7 @@ h1 {
   text-align: center;
   width: 100%;
   align-items: center;
+  font-size: 1.4rem;
 }
 
 .skillsitem {
@@ -157,7 +159,8 @@ h1 {
   margin-bottom: 0.35em;
 }
 .skillsdescription {
-  max-width: 400px;
+  max-width: 600px;
+  line-height: 1.4;
 }
 
 .skillsflex {
@@ -207,9 +210,10 @@ h1 {
 }
 
 .quotedescription {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 20px;
   text-align: center;
+  font-weight: 700;
 }
 
 .quotetitle {
@@ -278,6 +282,13 @@ h1 {
 
 .imgproject {
   height: 70%;
+  margin-top: 40px;
+}
+
+.project-name {
+  padding: 10px;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 /**Fin seccion PROYECTOS**/
@@ -287,6 +298,7 @@ h1 {
 .contactsection {
   height: 140vh;
   padding-top: 100px;
+  font-size: 1.3em;
 }
 
 .contact-title {
@@ -350,6 +362,7 @@ h1 {
 }
 input {
   outline: none;
+  font-size: 1.3rem;
 }
 .inputname {
   display: flex;
@@ -389,6 +402,8 @@ textarea {
   padding: 10px 15px;
   border-radius: 10px;
   width: 100%;
+  font-size: 1.3rem;
+  outline: none;
 }
 
 .formbutton {
@@ -413,7 +428,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 80px;
-  color: white;
+  font-size: 1.2rem;
 }
 .footernavmenu {
   display: flex;
@@ -453,6 +468,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 60px;
 }
 .love {
   margin-top: 40px;
