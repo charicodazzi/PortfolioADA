@@ -229,8 +229,8 @@ h1 {
 
 /**Inicio seccion PROYECTOS**/
 .projects {
-  height: 220vh;
   width: 100%;
+  padding-bottom: 40px;
 }
 
 .projectscontent {
@@ -244,11 +244,13 @@ h1 {
 .projectsdescription {
   width: 40%;
   margin-top: 30px;
+  font-size: 1.4rem;
 }
 
 .projectstitle {
   font-size: 45px;
   font-weight: 700;
+  font-size: 3rem;
 }
 
 .projectsflex {
@@ -468,7 +470,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 .love {
   margin-top: 40px;
