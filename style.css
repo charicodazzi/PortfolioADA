@@ -484,20 +484,18 @@ footer {
 }
 
 /**Fin FOOTER**/
-@media only screen and (max-width: 600px) {
-  .columns {
-    flex-direction: column;
-  }
-  .contactsection {
-    height: 300vh;
-  }
 
+/**   Responsive for TABLETS **/
+
+@media only screen and (min-width: 415px) and (max-width: 843px) {
   #aboutmaincontent {
     flex-direction: column;
   }
-}
 
-@media only screen and (max-width: 712px) {
+  .aboutimage {
+    margin-top: 80px;
+  }
+
   .projectscontent {
     align-items: center;
   }
@@ -541,5 +539,91 @@ footer {
 
   footer {
     height: 45vh;
+  }
+}
+
+/**   Responsive for SMARTPHONES **/
+
+@media only screen and (max-width: 414px) {
+  header {
+    display: none;
+  }
+
+  .about {
+    margin-top: -60px;
+  }
+  .columns {
+    flex-direction: column;
+  }
+  .contactsection {
+    height: 220vh;
+  }
+
+  #aboutmaincontent {
+    flex-direction: column;
+  }
+  #aboutmaincontent {
+    width: 140vw;
+  }
+
+  .aboutimage {
+    padding-top: 40px;
+  }
+  .skillssection {
+    width: 140vw;
+  }
+  .quote {
+    width: 140vw;
+  }
+  .projects {
+    width: 140vw;
+  }
+
+  .imgproject {
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  .projectscontent {
+    width: 100%;
+  }
+
+  .projectsdescription {
+    width: 100%;
+  }
+  .project-name {
+    font-size: 0.9rem;
+    margin-left: -10px;
+  }
+  .contactsection {
+    width: 140vw;
+  }
+  .columncontact {
+    width: 100vw;
+  }
+
+  footer {
+    width: 140vw;
+  }
+  textarea {
+    width: 300px;
+  }
+
+  .inputfirstname {
+    width: 30vw;
+  }
+  .inputsurname {
+    width: 40vw;
+  }
+  .formemail {
+    width: 70vw;
+  }
+
+  .contact-description {
+    width: 80vw;
+  }
+
+  .columnform {
+    margin-top: 80px;
   }
 }
