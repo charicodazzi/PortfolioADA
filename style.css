@@ -6,6 +6,12 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
 }
 /**Comienzo HEADER**/
 .aheader {
@@ -74,13 +80,16 @@ header {
 
 /**Seccion ABOUT**/
 
+.about {
+  width: 100%;
+}
+
 #aboutmaincontent {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 60px;
   width: 100%;
-
   padding: 120px 50px;
 }
 
@@ -307,6 +316,7 @@ h1 {
   padding-bottom: 40px;
   padding-top: 100px;
   font-size: 1.3em;
+  width: 100%;
 }
 
 .contact-title {
@@ -322,8 +332,9 @@ h1 {
   padding: 80px 60px;
   background-color: rgb(194, 206, 206);
   color: black;
-  margin: 80px;
-  margin-top: 0;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
 }
 
 .contact-social-link {
@@ -431,12 +442,19 @@ textarea {
 
 footer {
   background-color: lightseagreen;
-
   margin-top: 0;
   display: flex;
   flex-direction: column;
   padding: 80px;
   font-size: 1.2rem;
+}
+
+.footerorg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
+  width: 100%;
 }
 .footernavmenu {
   display: flex;
@@ -472,12 +490,6 @@ footer {
   border-radius: 50%;
   border: 1px solid black;
 }
-.footerorg {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 70px;
-}
 .love {
   margin-top: 40px;
   color: black;
@@ -488,6 +500,9 @@ footer {
 /**   Responsive for TABLETS **/
 
 @media only screen and (min-width: 415px) and (max-width: 843px) {
+  header {
+    display: none;
+  }
   #aboutmaincontent {
     flex-direction: column;
   }
@@ -545,8 +560,10 @@ footer {
 /**   Responsive for SMARTPHONES **/
 
 @media only screen and (max-width: 414px) {
+
   header {
     display: none;
+    width: 100%;
   }
 
   .about {
@@ -554,29 +571,36 @@ footer {
   }
   .columns {
     flex-direction: column;
+    width: 80%;
   }
+
+  .contact-social-links {
+    border: 1px solid red;
+    font-size: 16px;
+  }
+
   .contactsection {
-    height: 220vh;
+    width: 100%;
   }
 
   #aboutmaincontent {
     flex-direction: column;
   }
   #aboutmaincontent {
-    width: 140vw;
+    width: 100%;
   }
 
   .aboutimage {
     padding-top: 40px;
   }
   .skillssection {
-    width: 140vw;
+    width: 100%;
   }
   .quote {
-    width: 140vw;
+    width: 100%;
   }
   .projects {
-    width: 140vw;
+    width: 100%;
   }
 
   .imgproject {
@@ -595,35 +619,44 @@ footer {
     font-size: 0.9rem;
     margin-left: -10px;
   }
-  .contactsection {
-    width: 140vw;
-  }
+
   .columncontact {
-    width: 100vw;
+    width: 100%;
   }
 
   footer {
-    width: 140vw;
+    width: 100%;
+  }
+  .footernavmenu {
+    width: 70%;
   }
   textarea {
-    width: 300px;
+    width: 100%;
+  }
+  .contact-title {
+    font-size: 20px;
   }
 
+  .inputname {
+    display: flex;
+    flex-direction: column;
+  }
   .inputfirstname {
-    width: 30vw;
+    width: 100%;
   }
   .inputsurname {
-    width: 40vw;
+    width: 100%;
   }
   .formemail {
-    width: 70vw;
+    width: 100%;
   }
 
   .contact-description {
-    width: 80vw;
+    width: 80%;
   }
 
   .columnform {
     margin-top: 80px;
+    width: 100%;
   }
 }
