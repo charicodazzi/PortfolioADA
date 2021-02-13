@@ -611,6 +611,10 @@ footer {
     width: 100%;
   }
 
+  .projectbox {
+    width: auto;
+  }
+
   .imgproject {
     width: 100%;
     margin-top: 2px;
@@ -668,7 +672,7 @@ footer {
   }
 
   .contact-description {
-    width: 80%;
+    width: 14rem;
   }
 
   .columnform {
