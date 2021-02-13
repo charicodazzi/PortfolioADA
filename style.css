@@ -575,7 +575,6 @@ footer {
   }
 
   .contact-social-links {
-    border: 1px solid red;
     font-size: 16px;
   }
 
@@ -596,9 +595,18 @@ footer {
   .skillssection {
     width: 100%;
   }
+
+  .skillsdescription {
+    width: 80%;
+  }
   .quote {
     width: 100%;
   }
+
+  .quotetitle {
+    text-align: center;
+  }
+
   .projects {
     width: 100%;
   }
@@ -627,14 +635,22 @@ footer {
   footer {
     width: 100%;
   }
+
+  .footernav {
+    display: none;
+  }
   .footernavmenu {
     width: 70%;
+  }
+
+  .footer-social-links {
+    margin-top: -30px;
   }
   textarea {
     width: 100%;
   }
   .contact-title {
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   .inputname {
