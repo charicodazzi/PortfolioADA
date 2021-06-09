@@ -14,16 +14,16 @@ main {
   flex-direction: column;
 }
 /**Comienzo HEADER**/
-.aheader {
+.headerStyle {
   cursor: pointer;
   text-decoration: none;
   color: white;
 }
 
-.aheader:hover {
+.headerStyle:hover {
   color: #8338ec;
 }
-.aheader:active {
+.headerStyle:active {
   color: #8338ec;
   border: 1px solid #8338ec;
   border-radius: 20px;
@@ -51,7 +51,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
-  height: 14%;
+  height: 12%;
   font-size: 1.4rem;
 }
 
