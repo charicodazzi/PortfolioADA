@@ -6,10 +6,12 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  /* innecesario: el body siempre mide el 100% de si mismo*/
   width: 100%;
 }
 
 main {
+  /* de que sirve este estilo? */
   display: flex;
   flex-direction: column;
 }
@@ -37,6 +39,7 @@ main {
   line-height: 2.5;
 }
 
+/* este es un estilo general, deberia estar arriba de todo */
 ul {
   list-style: none;
 }
@@ -44,8 +47,8 @@ ul {
 .item {
   margin: 0 20px;
 }
-
-header {
+/* deberia estar antes que headerStyle, ya que viene antes en tu html */
+header { 
   box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25);
   padding: 25px 0;
   width: 100%;
@@ -71,6 +74,7 @@ header {
   outline: none;
 }
 
+/* no quites el outline a menos que vayas a darle un estilo en el foco */
 .buttonstyle:active {
   outline: none;
   border: none;
@@ -81,14 +85,17 @@ header {
 /**Seccion ABOUT**/
 
 .about {
+  /* innecesario */
   width: 100%;
 }
 
 #aboutmaincontent {
   display: flex;
+  /* innecesario, row es el estilo por defecto */
   flex-direction: row;
   justify-content: space-around;
   margin-top: 60px;
+  /* innecesario */
   width: 100%;
   padding: 120px 50px;
 }
@@ -130,6 +137,7 @@ header {
     rgba(55, 58, 59, 1) 100%
   );
 }
+/* deberia estar mas arriba */
 h1 {
   font-size: 70px;
   font-weight: 900;
@@ -140,6 +148,7 @@ h1 {
 /**Seccion CONOCIMIENTOS**/
 #skills {
   max-width: 1100px;
+  /* por que margin auto aca?? */
   margin: auto;
 }
 
@@ -148,6 +157,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  /* innecesario */
   width: 100%;
   align-items: center;
   font-size: 1.4rem;
@@ -213,7 +223,9 @@ h1 {
 }
 
 .quote {
+  /* innecesario */
   width: 100%;
+  /* innecesario */
   margin: auto;
   height: 90vh;
 }
@@ -243,6 +255,7 @@ h1 {
 
 /**Inicio seccion PROYECTOS**/
 .projects {
+  /* innecesario */
   width: 100%;
   padding-bottom: 40px;
 }
@@ -269,6 +282,7 @@ h1 {
 
 .projectsflex {
   display: flex;
+  /* innecesario */
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 40px;
@@ -294,6 +308,8 @@ h1 {
 .projectbox:active {
   box-shadow: 0 0 10px 0 lightseagreen;
 }
+
+/* aqui hay dos estilos en contradiccion */
 .imgproject {
   width: 100%;
 }
@@ -381,6 +397,7 @@ h1 {
   margin-top: 20px;
 }
 input {
+  /* nunca saques el outline a menos que lo reemplaces con otra cosa */
   outline: none;
   font-size: 1.3rem;
 }
@@ -396,6 +413,7 @@ textarea:hover {
   outline: none;
 }
 .formgrow {
+  /* que hace esto? que pasa si lo sacamos? */
   flex-grow: 1;
 }
 
@@ -443,6 +461,7 @@ textarea {
 
 footer {
   background-color: lightseagreen;
+  /* innecesario */
   margin-top: 0;
   display: flex;
   flex-direction: column;
@@ -455,6 +474,7 @@ footer {
   flex-direction: column;
   align-items: center;
   margin-top: 70px;
+  /* innecesario */
   width: 100%;
 }
 .footernavmenu {
